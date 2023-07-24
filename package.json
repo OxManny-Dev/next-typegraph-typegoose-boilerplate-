@@ -9,12 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/server": "^4.8.1",
+    "@as-integrations/next": "^2.0.1",
+    "@typegoose/typegoose": "^11.4.0",
     "@types/node": "20.4.4",
     "@types/react": "18.2.15",
     "@types/react-dom": "18.2.7",
+    "class-validator": "^0.14.0",
+    "graphql": "^16.7.1",
+    "mongoose": "^7.4.0",
     "next": "13.4.12",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^2.0.0-beta.1",
     "typescript": "5.1.6"
   }
 }
