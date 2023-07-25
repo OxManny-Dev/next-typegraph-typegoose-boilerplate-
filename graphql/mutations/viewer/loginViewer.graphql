@@ -1,0 +1,6 @@
+mutation LoginViewer($loginInputType: LoginInputType!) {
+  login(loginInputType: $loginInputType) {
+    email
+    password
+  }
+}

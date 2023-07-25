@@ -2,10 +2,10 @@ import {CodegenConfig} from '@graphql-codegen/cli'
 
 const config: CodegenConfig = {
   schema: 'http://localhost:3000/api/graphql',
-  documents: ['./graphql/**/*.graphql'],
+  documents: ['./graphql/**/**/*.graphql'],
   ignoreNoDocuments: true, // for better experience with the watcher
   generates: {
-    './hooks/hooks.ts': {
+    './generated/hooks.ts': {
       plugins: [
         "typescript",
         "typescript-operations",
